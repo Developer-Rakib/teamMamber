@@ -288,12 +288,14 @@ img{
     height: 250px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 
 }
 .teamMamber img{
 	height: 250px;
 	width: 250px;
     overflow: hidden;
+    cursor: pointer;
 }
 .teamMamber::after{
     content: "";
@@ -311,10 +313,7 @@ img{
     width: 100%;
 }
 
-/* .teamMamber::before{
-    content: "<h1>rakib</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, rem?</p>";
-    color: white;
-} */
+
 .team-details {
 	color: white;
 	position: absolute;
